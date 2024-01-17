@@ -4,6 +4,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        //Create new Rolling instance
         Rolling roll = new Rolling();
         int numDice = 0;
         int[] diceRolls = new int[11];
